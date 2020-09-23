@@ -1,0 +1,144 @@
+/* ########## Default ########## */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+  background: rgba(225, 238, 238, 0.911);
+}
+
+/* ########## Mobile View ########## */
+.wrapper {
+  margin: 70px 30px 40px;
+}
+
+.wrapper header {
+  background: white;
+  padding: 20px;
+}
+
+.wrapper header h2 {
+  color: #2ab2af;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.wrapper header h4 {
+  color: #c0df34;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+
+.wrapper header p {
+  color: #98a6bd;
+  line-height: 2;
+}
+
+.wrapper main {
+  background: #2ab2af;
+  padding: 30px 20px;
+  color: white;
+}
+
+.wrapper main h3 {
+  margin-bottom: 15px;
+  font-size: bold;
+}
+
+.wrapper main span:nth-of-type(1) {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.wrapper main span:nth-of-type(2) {
+  color: #e5eff5;
+}
+
+.wrapper main p {
+  margin-top: 10px;
+}
+
+.wrapper main button {
+  background: #c0df34;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 30px;
+  padding: 15px 0;
+  border: 1px solid #c0df34;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+.wrapper article {
+  background: #6bccc9;
+  padding: 20px;
+  color: white;
+}
+
+.wrapper article h3 {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.wrapper article ul {
+  list-style-type: none;
+  color: #e5eff5;
+}
+
+.wrapper article ul li {
+  line-height: 1.5;
+}
+
+.wrapper footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.wrapper footer a {
+  color: #2ab2af;
+  text-decoration: none;
+}
+
+.wrapper footer a:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: yellowgreen;
+          text-decoration-color: yellowgreen;
+}
+
+/* ########## Desktop View ########## */
+@media screen and (min-width: 768px) {
+  .wrapper {
+    margin: 5% 15% 2%;
+  }
+  .wrapper header {
+    padding: 5% 10%;
+  }
+  .wrapper .about {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  .wrapper .about main, .wrapper .about article {
+    padding: 10% 20%;
+  }
+  .wrapper .footer {
+    margin-top: 30px;
+    font-size: 1em;
+  }
+  .wrapper .footer #fspan {
+    padding-right: 10px;
+    border-right: 1px solid #2ab2af;
+  }
+  .wrapper .footer #sspan {
+    padding-left: 10px;
+    border-left: 1px solid #2ab2af;
+  }
+}
+/*# sourceMappingURL=style.css.map */
